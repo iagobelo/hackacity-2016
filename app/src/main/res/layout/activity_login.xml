@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B95344"
+    android:padding="16dp"
+    tools:context="com.around.around.activitys.LoginActivity">
+
+    <!--ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background" /-->
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/marca" />
+
+    <EditText
+        android:id="@+id/edt_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/btn_logIn"
+        android:layout_alignStart="@+id/edt_password"
+        android:layout_marginTop="300dp"
+        android:background="#28b1b1b1"
+        android:hint="Usuário"
+        android:paddingLeft="16dp"
+        android:textColorHint="@color/md_white_1000" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/btn_logIn"
+        android:layout_alignStart="@+id/btn_logIn"
+        android:layout_below="@+id/edt_login"
+        android:layout_marginTop="16dp"
+        android:background="#28b1b1b1"
+        android:hint="Senha"
+        android:paddingLeft="16dp"
+        android:textColorHint="@color/md_white_1000" />
+
+    <ImageView
+        android:id="@+id/btn_logIn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#2c5f52"
+        android:src="@drawable/btn" />
+
+</RelativeLayout>
